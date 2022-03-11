@@ -1,0 +1,235 @@
+<html>
+    <header>
+        <title>社區主委 | 桃園區課後陪伴樂園</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="assets/css/materialize.css">
+
+
+
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+    </header>
+    <body>
+        <header id="main_menuv2" class="site-header">
+                <div class="top_inner">
+                    <div class="site-branding">
+                        <p class="site-title">
+                            <a href="/" rel="home" > 
+                                <img src="assets/images/logo.svg" />
+                            </a>
+                        </p>
+                    </div><!-- .site-branding -->
+
+
+                    <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                            <span class="msep"></span>
+                            <span class="msep"></span>
+                            <span class="msep"></span>
+                    </button>
+
+                    <div id="site-navigation" class="main-navigation">
+                        <div class="global_menu">
+                            <div class="menu-main-container">
+                                <ul id="primary-menu" class="menu">
+                                    <li  class="menu-item "><a href="#">老師介紹</a></li>
+                                    <li  class="menu-item "><a href="#">社區課程</a></li>
+                                    <li  class="menu-item "><a href="#" class="active" >註冊 / 登入</a>
+                                      <ul class="sub-menu">
+                                        <li><a href="#">我是老師</a></li>
+                                        <li><a href="#">我是住戶</a></li>
+                                        <li><a href="#">社區主委</a></li>
+                                      </ul>
+                                    </li>
+                                </ul>
+                            </div>					
+                        </div><!-- global menu-->
+                    </div><!-- #site-navigation -->
+            </div>
+        </header>
+
+
+
+    <main>     
+
+
+        <div  id="dashboard_teacher" class="z-depth-1">
+            
+
+            <div class="row">
+            <div class="main  col m12">
+
+
+                <div class="content">
+                    
+                    <nav class="  blue-grey lighten-1 z-depth-0">
+                        <div class="nav-wrapper">      
+                            
+                         <div class="center">
+                             <ul>
+                                 <li class="">
+                                     <a href="dashboard_admin.html" class="myclass ">
+                                         <i class="material-icons dp48 inline">insert_invitation</i> <span class="inline">場地利用報表</span>
+                                    </a>
+                                </li>
+                             </ul>
+                         </div>
+
+                    </nav>
+
+
+                    <div id="profile_edit">
+                        
+                        <h5 class="header admin_title1"> <i class="material-icons dp48 inline">person_outline</i> 修改社區主委資料</h5>
+                        
+                        <form class="col s12">
+                            <div class="row">
+                              <div class="input-field col s6">
+                                <input  id="name" type="text" class="validate">
+                                <label for="name">主委姓名</label>
+                              </div>
+                              <div class="input-field col s6">
+                                <input id="house" type="text" class="validate">
+                                <label for="house">大樓名稱</label>
+                              </div>
+                            </div>
+
+
+                            <div class="row">
+                              <div class="input-field col s12">
+                                <input id="address" type="text" class="validate">
+                                <label for="address">地址</label>
+                              </div>
+                            </div>
+    
+    
+                            <div class="row">
+                              <div class="input-field col s6">
+                                <input id="email" type="text" class="validate">
+                                <label for="email">Email</label>
+                              </div>
+                              <div class="input-field col s6">
+                                <input id="line" type="text" class="validate">
+                                <label for="line">Line</label>
+                              </div>
+                            </div>
+    
+                            <div class="row">
+
+                              <div class="input-field col s6">
+                                <input id="youtube" type="text" class="validate">
+                                <label for="youtube">可利用的空間(例如交誼廳)</label>
+                              </div>
+                              <div class="input-field col s6">
+                                <input id="youtube" type="text" class="validate">
+                                <label for="youtube">可利用時間</label>
+                              </div>
+                            </div>
+    
+  
+    
+                            <div class="row">
+
+                              <div class="input-field col s6">
+                                <input id="fee" type="text" class="validate">
+                                <label for="fee">費用</label>
+                              </div>
+                              <div class="input-field col s6">
+                                <input id="bank" type="text" class="validate">
+                                <label for="bank">帳號</label>
+                              </div>
+                            </div>
+    
+    
+                            <div class="row">
+                              <div class="col s12 center-align">          
+                                <button class="btn waves-effect waves-light  btn-large" type="submit" name="action">更新資訊                             
+                                </button>   
+                                                                
+                              </div>
+                            </div>          
+                          </form>
+                    </div>
+                    
+
+                </div>
+            </div>
+            </div>
+            
+
+        </div>        
+    </main>
+
+
+
+
+
+    <script src="assets/js/script.js"></script>
+
+
+    <footer id="footer" class="site-footer">
+        <div class="footer_bottom">
+            <div class="bottom_right_nav">
+                <ul>
+                  <li>Copyright © 2022 . All rights reserved.</li>
+                </ul>				
+            </div>
+        </div>
+	</footer>
+
+
+
+
+
+      <!-- Edit Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+        <h4>新增課程</h4>
+
+        <div class="warn-content">
+            <ul>
+            <li>*一次可開10堂20小時</li>
+            <li>*線上有30小時課程未開班，則無法續開</li>
+            <li>*滿10人成班，可續開新課程 </li>
+            <li>*線上課程若無人報名，則可修改內容，若已有人報名則無法修改 </li>
+            <li>*課程24hr前未滿額則取消，或別人成班場地額滿則取消，通知已報名家長另選課程。</li>
+            </ul>
+        </div>
+
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+    </div>
+
+
+      <!-- Create Modal Structure   -->
+      <div id="modal_edit" class="modal">
+        <div class="modal-content">
+            <h4>編輯課程</h4>
+            <div class="warn-content hide">
+                <ul>
+                <li>*一次可開10堂20小時</li>
+                <li>*線上有30小時課程未開班，則無法續開</li>
+                <li>*滿10人成班，可續開新課程 </li>
+                <li>*線上課程若無人報名，則可修改內容，若已有人報名則無法修改 </li>
+                <li>*課程24hr前未滿額則取消，或別人成班場地額滿則取消，通知已報名家長另選課程。</li>
+                </ul>
+            </div>
+            <div>
+
+            </div>         
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+    </div>
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,110 @@
+#dashboard_teacher{
+    background:#fff;
+    max-width: 1200px;
+    padding:10px 5px;
+    margin-top:60px;
+    margin-left:auto;
+    margin-right:auto;
+
+
+
+
+    .man,
+    .myclass{
+        display: flex;
+        align-items: center;
+    }
+    .man i{
+        font-size:35px;
+    }
+
+    .myclass i{
+        font-size:30px;
+        margin-right:5px;
+    }
+
+    .admin_title1{
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i{
+            font-size:35px;
+        }
+    }
+    .admin_title2{     
+        margin-top: 35px;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i{
+            font-size:30px;
+            margin-right:5px;
+        }
+    }
+
+
+
+    thead th{
+        font-weight:bold;
+    }
+    nav a{
+        color:#fff;
+        &:hover{
+            color:#fff;
+        }
+    }
+
+    table{
+        padding-top:25px;
+        tr{
+            td:first-child{
+                padding-left:15px;
+                width: 30px;
+            }
+            td{
+                a.edit_btn{
+                    opacity: 0.5;
+                    cursor:pointer;
+                    color:#999;
+                    &:hover{                        
+                        opacity: 1;
+                        color:#0685c3;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .pagination{
+        padding-top:20px;
+        text-align: center;
+    }
+}
+
+.timepicker-modal{
+    width:100%;
+}
+
+#modal1{
+    min-height:83%;
+}
+
+.modal .input-field.col label{
+    z-index: -1;;
+}
+
+
+@media only screen and (max-width: 768px){
+    .modal {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 601px){
+    .datepicker-modal {
+        max-width: 625px;
+        width: auto;
+    }
+}
