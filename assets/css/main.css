@@ -468,6 +468,8 @@ main {
     main #line_app .center img {
       display: block;
       width: 100%; }
+    main #line_app .login_link {
+      text-align: center; }
   main #login_form {
     background: #fff;
     max-width: 800px;
